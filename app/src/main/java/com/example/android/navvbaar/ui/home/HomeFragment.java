@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.android.navvbaar.R;
 
-public abstract class HomeFragment extends Fragment implements dashboard {
+public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 
@@ -32,6 +32,4 @@ public abstract class HomeFragment extends Fragment implements dashboard {
         });
         return root;
     }
-
 }
-
